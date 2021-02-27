@@ -1,0 +1,6 @@
+R = AB * EF / IJ
+print('VECTORS ', R)
+
+R1 = np.multiply(CD,GH)
+R2 = np.divide(R1,IJ)
+print ("VECTORS",R2)
