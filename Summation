@@ -4,3 +4,14 @@ print("SUM OF ARRAY : ", np.sum(arr))
    
 print("SUM OF ARRAY(uint8) : ", np.sum(arr, dtype = np.uint8))  
 print("SUM OF ARRAY(float32) : ", np.sum(arr, dtype = np.float32)) 
+
+
+# 2D array  
+arr = [[13, 17, 14, 33, 44],    
+       [15, 6, 27, 4, 19],   
+       [23, 2, 54, 1, 2,]]   
+   
+print("\nSUM OF ARRAY : ", np.sum(arr))  
+   
+print("SUM OF ARRAY(uint8) : ", np.sum(arr, dtype = np.uint8))  
+print("SUM OF ARRAY(float32) : ", np.sum(arr, dtype = np.float32)) 
