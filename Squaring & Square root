@@ -1,5 +1,5 @@
-X = np.array([4,9,25])
-Y = np.array([2,3,5])
+X = np.array([4,15,22])
+Y = np.array([2,4,6])
 
 R1 = np.sqrt(np.square(X))
 print ("VECTORS",R1)
