@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 
-a = [2.0,4.0]
-b = [8.0,8.0]
+a = [12.0,8.0]
+b = [9.0,6.0]
 
 head_length = 0.7
 
@@ -19,7 +19,7 @@ vec_ab_magnitude = vec_ab_magnitude - head_length
 
 ax = plt.axes()
 
-ax.arrow(a[0], a[1], vec_ab_magnitude*dx, vec_ab_magnitude*dy, head_width=0.5, head_length=0.7, fc='lightblue', ec='black')
+ax.arrow(a[0], a[1], vec_ab_magnitude*dx, vec_ab_magnitude*dy, head_width=0.5, head_length=0.7, fc='blue', ec='lightblue')
 
 plt.scatter(a[0],a[1],color='black')
 plt.scatter(b[0],b[1],color='black')
