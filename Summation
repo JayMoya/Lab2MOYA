@@ -1,4 +1,4 @@
-arr = [24, -3, .1, 8, 3]   
+arr = [234, -13, 12, 9, 2]   
    
 print("SUM OF ARRAY : ", np.sum(arr))  
    
@@ -7,9 +7,9 @@ print("SUM OF ARRAY(float32) : ", np.sum(arr, dtype = np.float32))
 
 
 # 2D array  
-arr = [[13, 17, 14, 33, 44],    
-       [15, 6, 27, 4, 19],   
-       [23, 2, 54, 1, 2,]]   
+arr = [[15, 10, 16, 30, 40],    
+       [17, 13, 34, 7, 20],   
+       [32, 12, 20, 10, 21,]]   
    
 print("\nSUM OF ARRAY : ", np.sum(arr))  
    
